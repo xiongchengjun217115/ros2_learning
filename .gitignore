@@ -1,0 +1,36 @@
+# ── ROS 2 / colcon 编译产物 ──
+build/
+install/
+log/
+.cache/
+compile_commands.json
+ament_cmake_*
+CTest*
+
+# ── CMake ──
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# ── C/C++ 目标文件与可执行 ──
+*.o
+*.so
+*.a
+*.out
+a.out
+learn_cmake
+ros2_cpp_node
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ── 编辑器 / 系统 ──
+.DS_Store
+Thumbs.db
+*.swp
+*~
